@@ -29,7 +29,7 @@ class App extends Component {
           <div>
             <Route exact path ='/' component={ListComponent}/>
             <Route path ='/list' component={ListComponent}/>
-            <Route path ='/list-detail' component={ListDetailComponent}/>
+            <Route path ='/list-detail/:id' component={ListDetailComponent}/>
 
             <p><Link to="/list">List</Link></p>
             <p><Link to="/list-detail">List Detail</Link></p>
